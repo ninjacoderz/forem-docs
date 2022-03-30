@@ -121,3 +121,12 @@ into an error due to an older system node version being present, which can cause
 issues while `yarn` is installing packages. If so, you'll need to
 [install `nvm`](https://github.com/nvm-sh/nvm#installation-and-update) and then
 run `nvm install node` to get the most recent node version before retrying.
+
+We an have error with some gems like : 
+An error occurred while installing patron (0.13.3), and Bundler cannot continue.
+Make sure that `gem install patron -v '0.13.3' --source 'https://rubygems.org/'` succeeds before bundling.
+
+In Gemfile:
+  patron
+Check /mkmf.log we can see the error with -lcurl
+Solution: Fixed by 
