@@ -112,6 +112,8 @@ While installing, you might run into an error due to the `pg` gem requiring
 PostgreSQL libraries. If so, please run `sudo apt-get install libpq-dev` before
 retrying.
 
+Also We can install postgresql-14 and add "export PATH=/usr/pgsql-14/bin:$PATH"
+
 While installing, you might run into an error due to the `sass-rails` gem
 requiring `sassc`, which requires the `g++` compiler. If so, please run
 `sudo apt-get install g++` before retrying.
@@ -121,3 +123,5 @@ into an error due to an older system node version being present, which can cause
 issues while `yarn` is installing packages. If so, you'll need to
 [install `nvm`](https://github.com/nvm-sh/nvm#installation-and-update) and then
 run `nvm install node` to get the most recent node version before retrying.
+
+
