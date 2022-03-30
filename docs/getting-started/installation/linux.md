@@ -121,3 +121,8 @@ into an error due to an older system node version being present, which can cause
 issues while `yarn` is installing packages. If so, you'll need to
 [install `nvm`](https://github.com/nvm-sh/nvm#installation-and-update) and then
 run `nvm install node` to get the most recent node version before retrying.
+
+Building native extensions. This could take a while...
+ERROR:  Error installing field_test:
+	ERROR: Failed to build gem native extension.
+Caused by gcc version, we can upgrade gcc by "yum install devtoolset-7" 
